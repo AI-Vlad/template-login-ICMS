@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&display=swap');
 
 a{
-	color: #666;
+	color: #233f70 !important;
 }
 
 a:hover{
-	color: #ff1f3d;
+	color: #233f70;
+	text-decoration: underline !important;
 }
 
 html, body {

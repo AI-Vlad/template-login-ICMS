@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="pt-br">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8" />
+    <title>COTIN MS</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="favicons/icon.png">
+    <meta name="theme-color" content="#fff">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Fibra Óptica">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon-precomposed" href="favicons/icon.png">
+
+
+
+    <!-- styles -->
+    <link href="./css/base.css" rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/bootstrap.offcanvas.min.css" rel="stylesheet">
+    <link href="./css/normalize.css" rel="stylesheet">
+    <link href="./css/swiper.min.css" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
+    <link href="./css/responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/projeto-znit.css">
+    <link rel="stylesheet" href="./css/css-icons/all.css">
+    <link rel="stylesheet" href="./css/shadow.css">
+
+
+</head>
+
+<body id="body">
+    <header class="container-fluid containerTopo p-0">
+
+        <nav class=" menuTopo">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6">
+                        <ul class="navbar-nav menuTopoItens">
+                            <li>
+                                <a target="_blank" alt="Transparencia" title="Transparencia"
+                                    href="http://www.transparencia.ms.gov.br/">
+                                    <i class="iconTransparencia"></i>
+                                    TRANSPARENCIA
+                                </a>
+                            </li>
+
+                            <li>
+                                <a target="_blank" alt="FAQ" title="FAQ"
+                                    href="http://www.faleconosco.ms.gov.br/faq/#/home">
+                                    <i class="iconFaq"></i>
+                                    FAQ
+                                </a>
+                            </li>
+
+                            <!-- <li>
+                  <a target="_blank" alt="Fale Conosco" title="Fale Conosco" href="http://www.faleconosco.ms.gov.br/faleconosco/login/login.jsf">
+                    <i class="iconFaleconosco"></i>
+                    FALE CONOSCO
+                  </a>
+                </li> -->
+
+                            <li>
+                                <a target="_blank" alt="Webmail" title="Webmail" href="http://webmail.ms.gov.br/mail/">
+                                    <i class="iconWebmail"></i>
+                                    WEBMAIL
+                                </a>
+                            </li>
+
+                            <li>
+                                <a id="lgpd" target="_blank" alt="lgpd" title="lgpd" href="https://www.lgpd.ms.gov.br/">
+                                    <i class="lgpd"><img
+                                            src="https://www.corat.sefaz.ms.gov.br/wp-content/themes/fokma/img/lgpd-icon.png"
+                                            alt="lgpd"></i>
+                                    LGPD
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <form action="https://www.corat.sefaz.ms.gov.br" id="headerSearchform" method="get">
+                            <div>
+                                <input type="text" id="s" name="s" value="" placeholder="Pesquisar..">
+                                <input type="submit" value="Buscar" id="searchsubmit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
+        </nav>
+
+        <!-- Banner -->
+
+        <!-- Img Banner -->
+        <section class="banner"
+            style="background:url('https://www.corat.sefaz.ms.gov.br/wp-content/webpc-passthru.php?src=https://www.corat.sefaz.ms.gov.br/wp-content/uploads/2021/08/banner-topo.png&amp;nocache=1') 50% 50% no-repeat; background-size: cover"
+            alt="banner principal">
+            <!-- // Img Banner -->
+
+            <div class="container containerTituloAlt">
+                <div class="row">
+                    <!-- Nome da Secretaria -->
+                    <div class="col-9 col-sm-6" id="logoSecretaria">
+                        <a href="https://www.corat.sefaz.ms.gov.br">
+                            <h1 data-uw-styling-context="true">Coordenadoria Especial de Tecnologia da Informação
+                                (COTIN) da
+                                SEFAZ</h1>
+                        </a>
+                    </div>
+
+                    <!-- Logo do Governo -->
+
+                    <div class="col-3 col-sm-6 text-right pl-0">
+                        <a id="only_gov" href="http://www.ms.gov.br" target="_blank" class="d-sm-none">
+                            <img class="logoGovernoEstado"
+                                src="https://www.corat.sefaz.ms.gov.br/wp-content/themes/fokma/img/brasao-ms.png"
+                                alt="Governo do Estado" title="Governo do Estado">
+                        </a>
+                        <a id="brasao" href="http://www.ms.gov.br" target="_blank" class="d-none d-sm-block">
+                            <img class="logoGovernoEstado"
+                                src="https://www.corat.sefaz.ms.gov.br/wp-content/themes/fokma/img/logoGovernoEstado-azul.png"
+                                alt="Governo do Estado" title="Governo do Estado">
+                        </a>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </section>
+        <!-- // Banner -->
+
+    </header>
+
+    <button type="button" class="navbar-toggle offcanvas-toggle button-burguer" data-toggle="offcanvas"
+        data-target="#js-bootstrap-offcanvas">
+        <span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar middle"></span>
+            <span class="icon-bar"></span>
+        </span>
+        <span class="sr-only">Menu</span>
+    </button>
+
+    <div class="navbar-offcanvas navbar-offcanvas-touch menu-responsivo" id="js-bootstrap-offcanvas">
+        <ul class="menu-responsivo">
+            <li><a href="">QUEM SOMOS</a></li>
+            <li><a href="">NOSSAS COMPETÊNCIAS</a></li>
+            <li><a href="">NOSSAS UNIDADES</a></li>
+        </ul>
+    </div>
+
+    <div class="w-full bg-gray d-none-menu navegador" id="navegador">
+        <div class="container">
+
+            <div class="col-lg-12 d-none d-sm-none d-md-block col-md-12 d-lg-block nav d-none-menu">
+
+
+
+                <ul class="row menu-header-centered menu-header-centered-main">
+                    <li><a href="">QUEM SOMOS</a></li>
+                    <li><a href="">NOSSAS COMPETÊNCIAS</a></li>
+                    <li><a href="">NOSSAS UNIDADES</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    <main id="noticias" class="container" role="main">
+        <section class="row">
+            <div class="col-12 col-lg-12 col-xl-6">
+                <section class="desktop">
+
+
+                    <div class="w-full  responsive-img ">
+
+                        <div class="slide swiper-container-initialized swiper-container-horizontal">
+                            <div class="swiper-wrapper"
+                                style="transform: translate3d(-11520px, 0px, 0px); transition-duration: 0ms;">
+
+
+                                <div class="swiper-slide" style="width: 1920px;">
+
+                                    <img class="img-banner" loading="lazy" src="./assets/img/img-banner1.jpg" alt="">
+
+                                </div>
+
+                                <div class="swiper-slide" style="width: 1920px;">
+
+                                    <img class="img-banner" loading="lazy" src="./assets/img/img-banner2.png" alt="">
+
+                                </div>
+
+                                <div class="swiper-slide" style="width: 1920px;">
+
+                                    <img class="img-banner" loading="lazy" src="./assets/img/img-banner1.jpg" alt="">
+
+                                </div>
+
+                                <div class="swiper-slide" style="width: 1920px;">
+
+                                    <img class="img-banner" loading="lazy" src="./assets/img/img-banner2.png">
+
+                                </div>
+
+                                <div class="swiper-slide" style="width: 1920px;">
+
+                                    <img class="img-banner" loading="lazy" src="./assets/img/img-banner1.jpg">
+
+                                </div>
+
+                                <div class="swiper-slide swiper-slide-prev" style="width: 1920px;">
+
+                                    <img class="img-banner" loading="lazy" src="./assets/img/img-banner2.png">
+
+                                </div>
+
+                                <div class="swiper-slide swiper-slide-active" style="width: 1920px;">
+
+                                    <img class="img-banner" loading="lazy" src="./assets/img/img-banner1.jpg">
+                                </div>
+
+
+                            </div>
+                            <div
+                                class="slide-controle swiper-pagination swiper-pagination-clickable swiper-pagination-bullets">
+                                <span class="swiper-pagination-bullet" tabindex="0" role="button"
+                                    aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet"
+                                    tabindex="0" role="button" aria-label="Go to slide 2"></span><span
+                                    class="swiper-pagination-bullet" tabindex="0" role="button"
+                                    aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet"
+                                    tabindex="0" role="button" aria-label="Go to slide 4"></span><span
+                                    class="swiper-pagination-bullet" tabindex="0" role="button"
+                                    aria-label="Go to slide 5"></span><span class="swiper-pagination-bullet"
+                                    tabindex="0" role="button" aria-label="Go to slide 6"></span><span
+                                    class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0"
+                                    role="button" aria-label="Go to slide 7"></span>
+                            </div>
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                        </div>
+
+                    </div>
+                </section>
+
+            </div>
+            <div class="col-12 col-lg-12 col-xl-6">
+                <div class="row">
+                    <ul class="noticias row">
+                        <!-- Não Mostar Posts em Destaque -->
+                        <li class="cadaNoticia col-12 col-lg-6 col-xl-12">
+                            <a alt="SEFAZ/MS PASSA A INTEGRAR REDE DE CORREDORIAS"
+                                title="SEFAZ/MS PASSA A INTEGRAR REDE DE CORREDORIAS"
+                                href="https://www.corat.sefaz.ms.gov.br/sefaz-ms-passa-a-integrar-rede-de-corredorias/">
+
+                                <div class="row">
+                                    <div class="col-lg-12 col-xl-4 col-12">
+                                    </div>
+                                    <div class="col-xl-8 col-lg-12 col-12">
+                                        <h2><strong>SEFAZ/MS PASSA A INTEGRAR REDE DE CORREDORIAS</strong><span> - 26
+                                                outubro 2021 </span></h2>
+                                        A Secretaria da Fazenda do Estado de Mato Grosso do Sul passa a fazer parte da
+                                        Rede Nacional de Corregedorias. O Termo de Adesão...
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+
+                        <!-- Não Mostar Posts em Destaque -->
+                        <li class="cadaNoticia col-12 col-lg-6 col-xl-12">
+                            <a alt="APROVADA CRIAÇÃO DA CORAT/SEFAZ/MS" title="APROVADA CRIAÇÃO DA CORAT/SEFAZ/MS"
+                                href="https://www.corat.sefaz.ms.gov.br/aprovada-criacao-da-corat-sefaz-ms/">
+
+                                <div class="row">
+                                    <div class="col-lg-12 col-xl-4 col-12">
+                                    </div>
+                                    <div class="col-xl-8 col-lg-12 col-12">
+                                        <h2><strong>APROVADA CRIAÇÃO DA CORAT/SEFAZ/MS</strong><span> - 22 setembro 2021
+                                            </span></h2>
+                                        Aprovada criação da Corregedoria-Geral da Administração Tributária da Secretaria
+                                        da Fazenda do Estado de MS.
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <a href="https://www.corat.sefaz.ms.gov.br/noticias/" class="btnVerMais">VER MAIS</a>
+            </div>
+        </section>
+    </main>
+
+    <div class="container">
+        <section class="desktop">
+
+
+            <div class="w-full  responsive-img ">
+
+                <div class="slide swiper-container-initialized swiper-container-horizontal">
+                    <div class="swiper-wrapper"
+                        style="transform: translate3d(-11520px, 0px, 0px); transition-duration: 0ms;">
+
+
+                        <div class="swiper-slide" style="width: 1920px;">
+
+                            <img class="img-banner-two" loading="lazy"
+                                src="https://www.corat.sefaz.ms.gov.br/wp-content/themes/fokma/img/banner-coronavirus.webp"
+                                alt="">
+
+                        </div>
+
+                        <div class="swiper-slide" style="width: 1920px;">
+
+                            <img class="img-banner-two" loading="lazy"
+                                src="https://www.corat.sefaz.ms.gov.br/wp-content/themes/fokma/img/banner-coronavirus.webp"
+                                alt="">
+
+                        </div>
+
+                        <div class="swiper-slide" style="width: 1920px;">
+
+                            <img class="img-banner-two" loading="lazy"
+                                src="https://www.corat.sefaz.ms.gov.br/wp-content/themes/fokma/img/banner-coronavirus.webp"
+                                alt="">
+
+                        </div>
+
+                        <div class="swiper-slide" style="width: 1920px;">
+
+                            <img class="img-banner-two" loading="lazy"
+                                src="https://www.corat.sefaz.ms.gov.br/wp-content/themes/fokma/img/banner-coronavirus.webp">
+
+                        </div>
+
+                        <div class="swiper-slide" style="width: 1920px;">
+
+                            <img class="img-banner-two" loading="lazy"
+                                src="https://www.corat.sefaz.ms.gov.br/wp-content/themes/fokma/img/banner-coronavirus.webp">
+
+                        </div>
+
+                        <div class="swiper-slide swiper-slide-prev" style="width: 1920px;">
+
+                            <img class="img-banner-two" loading="lazy"
+                                src="https://www.corat.sefaz.ms.gov.br/wp-content/themes/fokma/img/banner-coronavirus.webp">
+
+                        </div>
+
+                        <div class="swiper-slide swiper-slide-active" style="width: 1920px;">
+
+                            <img class="img-banner-two" loading="lazy"
+                                src="https://www.corat.sefaz.ms.gov.br/wp-content/themes/fokma/img/banner-coronavirus.webp">
+                        </div>
+
+
+                    </div>
+                    <div class="slide-controle swiper-pagination swiper-pagination-clickable swiper-pagination-bullets">
+                        <span class="swiper-pagination-bullet" tabindex="0" role="button"
+                            aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet" tabindex="0"
+                            role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet"
+                            tabindex="0" role="button" aria-label="Go to slide 3"></span><span
+                            class="swiper-pagination-bullet" tabindex="0" role="button"
+                            aria-label="Go to slide 4"></span><span class="swiper-pagination-bullet" tabindex="0"
+                            role="button" aria-label="Go to slide 5"></span><span class="swiper-pagination-bullet"
+                            tabindex="0" role="button" aria-label="Go to slide 6"></span><span
+                            class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button"
+                            aria-label="Go to slide 7"></span>
+                    </div>
+                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+    <section class="container" id="banners">
+        <div class="row">
+            <div class="col-12">
+                <div class="lSSlideOuter ">
+                    <div class="lSSlideWrapper usingCss"
+                        style="transition-duration: 400ms; transition-timing-function: ease;">
+                        <ul id="bannerSlide" class="lightSlider lsGrab lSSlide"
+                            style="width: 0px; transform: translate3d(0px, 0px, 0px); padding-bottom: 0%;">
+                        </ul>
+                        <div class="lSAction" style="display: none;"><a class="lSPrev"></a><a class="lSNext"></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="mainWidgets">
+        <main class="container" role="main">
+            <div class="row">
+                <div id="block-2"
+                    class="widget widget_block widget_media_image justify-content-center  col-12 col-sm-6 col-lg-3">
+                    <figure class="wp-block-image size-full"><img loading="lazy" width="255" height="181"
+                            src="https://www.corat.sefaz.ms.gov.br/wp-content/webpc-passthru.php?src=https://www.corat.sefaz.ms.gov.br/wp-content/uploads/2021/09/corat_img01.jpg&amp;nocache=1"
+                            alt="acesso restrito." class="wp-image-197"></figure>
+                </div>
+                <div id="block-3"
+                    class="widget widget_block widget_media_image justify-content-center  col-12 col-sm-6 col-lg-3">
+                    <figure class="wp-block-image size-full"><a href="http://www.ms.gov.br/"><img loading="lazy"
+                                width="255" height="181"
+                                src="https://www.corat.sefaz.ms.gov.br/wp-content/webpc-passthru.php?src=https://www.corat.sefaz.ms.gov.br/wp-content/uploads/2021/09/corat_img02.jpg&amp;nocache=1"
+                                alt="governo do estado de ms." class="wp-image-198"></a></figure>
+                </div>
+                <div id="block-4"
+                    class="widget widget_block widget_media_image justify-content-center  col-12 col-sm-6 col-lg-3">
+                    <figure class="wp-block-image size-full"><a href="https://www.sefaz.ms.gov.br/"><img loading="lazy"
+                                width="255" height="181"
+                                src="https://www.corat.sefaz.ms.gov.br/wp-content/webpc-passthru.php?src=https://www.corat.sefaz.ms.gov.br/wp-content/uploads/2021/09/corat_img03.jpg&amp;nocache=1"
+                                alt="secretaria de fazenda do estado de ms." class="wp-image-199"></a></figure>
+                </div>
+                <div id="block-5"
+                    class="widget widget_block widget_media_image justify-content-center  col-12 col-sm-6 col-lg-3">
+                    <figure class="wp-block-image size-full"><a href="https://www.cge.ms.gov.br/"><img loading="lazy"
+                                width="255" height="181"
+                                src="https://www.corat.sefaz.ms.gov.br/wp-content/webpc-passthru.php?src=https://www.corat.sefaz.ms.gov.br/wp-content/uploads/2021/09/corat_img04-1.jpg&amp;nocache=1"
+                                alt="Controladoria-Geral do Estado de MS." class="wp-image-217"></a></figure>
+                </div>
+                <div id="block-6"
+                    class="widget widget_block widget_media_image justify-content-center  col-12 col-sm-6 col-lg-3">
+                    <figure class="wp-block-image size-full"><a
+                            href="http://www.faleconosco.ms.gov.br/faleconosco/ouvidoria/ouvidoria.jsf"><img
+                                loading="lazy" width="255" height="181"
+                                src="https://www.corat.sefaz.ms.gov.br/wp-content/webpc-passthru.php?src=https://www.corat.sefaz.ms.gov.br/wp-content/uploads/2021/09/corat_img05.jpg&amp;nocache=1"
+                                alt="ouvidoria fazendária: denúncias, elogios e reclamações." class="wp-image-201"></a>
+                    </figure>
+                </div>
+                <div id="block-7"
+                    class="widget widget_block widget_media_image justify-content-center  col-12 col-sm-6 col-lg-3">
+                    <figure class="wp-block-image size-full"><a
+                            href="http://www.ouvidorias.ms.gov.br/publico/Manifestacao/RegistrarManifestacao.aspx"><img
+                                loading="lazy" width="255" height="181"
+                                src="https://www.corat.sefaz.ms.gov.br/wp-content/webpc-passthru.php?src=https://www.corat.sefaz.ms.gov.br/wp-content/uploads/2021/09/corat_img06.jpg&amp;nocache=1"
+                                alt="Sistemas de ouvidorias poder executivo de MS (e-ouv)." class="wp-image-202"></a>
+                    </figure>
+                </div>
+                <div id="block-8"
+                    class="widget widget_block widget_media_image justify-content-center  col-12 col-sm-6 col-lg-3">
+                    <figure class="wp-block-image size-full"><img loading="lazy" width="255" height="181"
+                            src="https://www.corat.sefaz.ms.gov.br/wp-content/webpc-passthru.php?src=https://www.corat.sefaz.ms.gov.br/wp-content/uploads/2021/09/corat_img07.jpg&amp;nocache=1"
+                            alt="publicações corat." class="wp-image-203"></figure>
+                </div>
+                <div id="block-9"
+                    class="widget widget_block widget_media_image justify-content-center  col-12 col-sm-6 col-lg-3">
+                    <figure class="wp-block-image size-full"><a href="http://www.cartasdeservicos.ms.gov.br/"><img
+                                loading="lazy" width="255" height="181"
+                                src="https://www.corat.sefaz.ms.gov.br/wp-content/webpc-passthru.php?src=https://www.corat.sefaz.ms.gov.br/wp-content/uploads/2021/09/corat_img08.jpg&amp;nocache=1"
+                                alt="carta de serviços aos usuários governo do estado de ms." class="wp-image-204"></a>
+                    </figure>
+                </div>
+                <div id="block-10"
+                    class="widget widget_block widget_media_image justify-content-center  col-12 col-sm-6 col-lg-3">
+                    <figure class="wp-block-image size-full"><a href="http://www.transparencia.ms.gov.br/"><img
+                                loading="lazy" width="255" height="181"
+                                src="https://www.corat.sefaz.ms.gov.br/wp-content/webpc-passthru.php?src=https://www.corat.sefaz.ms.gov.br/wp-content/uploads/2021/09/corat_img09.jpg&amp;nocache=1"
+                                alt="portal da transparência governo ms." class="wp-image-205"></a></figure>
+                </div>
+                <div id="block-11"
+                    class="widget widget_block widget_media_image justify-content-center  col-12 col-sm-6 col-lg-3">
+                    <figure class="wp-block-image size-full"><a href="https://www.gov.br/cgu/pt-br"><img loading="lazy"
+                                width="255" height="181"
+                                src="https://www.corat.sefaz.ms.gov.br/wp-content/webpc-passthru.php?src=https://www.corat.sefaz.ms.gov.br/wp-content/uploads/2021/09/corat_img10-1.jpg&amp;nocache=1"
+                                alt="Controladoria-Geral da União." class="wp-image-218"></a></figure>
+                </div>
+                <div id="block-12"
+                    class="widget widget_block widget_media_image justify-content-center  col-12 col-sm-6 col-lg-3">
+                    <figure class="wp-block-image size-full"><a
+                            href="https://repositorio.cgu.gov.br/handle/1/20696?"><img loading="lazy" width="255"
+                                height="181"
+                                src="https://www.corat.sefaz.ms.gov.br/wp-content/webpc-passthru.php?src=https://www.corat.sefaz.ms.gov.br/wp-content/uploads/2021/09/corat_img11.jpg&amp;nocache=1"
+                                alt="base de conhecimento da cgu." class="wp-image-207"></a></figure>
+                </div>
+                <div id="block-13"
+                    class="widget widget_block widget_media_image justify-content-center  col-12 col-sm-6 col-lg-3">
+                    <figure class="wp-block-image size-full"><a href="http://www.consultaprocesso.ms.gov.br/"><img
+                                loading="lazy" width="255" height="181"
+                                src="https://www.corat.sefaz.ms.gov.br/wp-content/webpc-passthru.php?src=https://www.corat.sefaz.ms.gov.br/wp-content/uploads/2021/09/corat_img12-1.jpg&amp;nocache=1"
+                                alt="" class="wp-image-209"></a></figure>
+                </div>
+            </div>
+        </main>
+    </section>
+    <section class="footer">
+         <nav class="container">
+            <div class="row">
+                <div id="block-23" class="footer-widget widget_block widget_text col-12 col-lg-3">
+                    <p class="has-text-color has-small-font-size" style="color:#383434"><span style="color:#3d7f51"
+                            class="has-inline-color"><strong>CONTATO</strong><br></span><strong><br></strong><span
+                            style="color:#706f6f" class="has-inline-color">Coordenadoria Especial de Tecnologia da
+                            Informação<br>A Rua Delegado Osmar de Camargo - Jardim Veraneio, Campo Grande, S/N<br>Bloco
+                            02 - Parque
+                            dos Poderes<br>Telefones:<br>(xx) xxxx-xxxx / (xx) xxxx-xxxx <br>CEP: xx.xxx-xxx<br>Campo
+                            Grande - MS </span><br></p>
+                </div>
+                <div id="block-24" class="footer-widget widget_block col-12 col-lg-3">
+                    <div class="wp-block-group">
+                        <div class="wp-block-group__inner-container">
+                            <p class="has-text-color has-small-font-size" style="color:#3d7f51"><strong>MAPA
+                                    COTIN</strong></p>
+
+
+
+                            <p><iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3738.661317388203!2d-54.559712049827354!3d-20.438013986254216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9486e905b123b21d%3A0xeb78a1358012b450!2sSGI+-+Superintend%C3%AAncia+de+Gest%C3%A3o+da+Informa%C3%A7%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1549974362546"
+                                    width="250" height="250" style="border:0;" allowfullscreen=""
+                                    loading="lazy"></iframe></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav> 
+        <!-- <nav class="container">
+            <div class="row">
+                <div id="text-4" class="footer-widget widget_text col-12 col-lg-3">
+                    <h5 class="footer-widget-title" data-uw-styling-context="true">Contato</h5>
+                    <div class="textwidget">
+                        <p data-uw-styling-context="true">R. Delegado Osmar de Camargo, s/n<br>
+                            Parque dos Poderes<br>
+                            CEP 79037-108<br>
+                            Campo Grande - MS</p>
+                    </div>
+                </div>
+                <div id="custom_html-2" class="widget_text footer-widget widget_custom_html col-12 col-lg-3">
+                    <h5 class="footer-widget-title" data-uw-styling-context="true">Localização</h5>
+                    <div class="textwidget custom-html-widget"><iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3738.661317388203!2d-54.559712049827354!3d-20.438013986254216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9486e905b123b21d%3A0xeb78a1358012b450!2sSGI+-+Superintend%C3%AAncia+de+Gest%C3%A3o+da+Informa%C3%A7%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1549974362546"
+                            width="100%" height="200" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+            </div>
+        </nav> -->
+    </section>
+
+    <footer>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 assinatura">
+                    <img src="assets/img/ucqi-mini.png" alt="UCQI">
+                    <img src="assets/img/cotin-mini2-removebg-preview.png" alt="logo" class="logo-default"
+                        style="width: 300px; margin-left: 10px; margin-bottom: x; ">
+                </div>
+                <div class="col-md-4 text-center">
+                    <p class="copyright">© COTIN - Todos direitos reservados</p>
+                </div>
+                <div class="col-md-4 text-right">
+                    <img class="footer-logo" src="assets/img/sefaz.png" alt="Sefaz">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- scripts -->
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/bootstrap.offcanvas.js"></script>
+    <script src="./js/easings.js"></script>
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/lazyload.js"></script>
+    <script src="./js/main.js"></script>
+
+    <script>
+        // window.onscroll = function () {
+        //     myFunction()
+        // };
+
+        // var header = document.getElementById('navegador')
+        // var sticky = header.offsetTop
+
+        // function myFunction() {
+        //     if (window.pageYOffset > sticky) {
+        //         header.classList.add("sticky");
+        //     } else {
+        //         header.classList.remove("sticky");
+        //     }
+
+        // }
+    </script>
+
+    <script>
+
+        // Script para mostrar e fechar o modal de cidades //
+
+        function showCities() {
+            document.getElementById('modalCidades').style.display = 'block'
+            document.getElementById('body').style.overflow = 'hidden'
+        }
+
+        function hideCities() {
+            document.getElementById('modalCidades').style.display = 'none'
+            document.getElementById('body').style.overflow = 'auto'
+
+        }
+
+        // Script para adicionar classe ao icone chevron //
+
+        var $chevIcon = $('#icon');
+
+        $(window).resize(function () {
+            if (window.innerWidth <= 700) {
+                $chevIcon.removeClass('icon-small');
+                $chevIcon.addClass('icon-medium');
+            } else {
+                $chevIcon.removeClass('icon-medium');
+                $chevIcon.addClass('icon-small');
+            }
+
+        });
+
+
+
+    </script>
+
+
+
+</body>
+
+
+</html>

@@ -115,12 +115,12 @@ header {
 	position: relative;
 }
 
-.bg-red {
-	background-color: #cd1515;
+.bg-blue {
+	background-color: #233f70;
 }
 
-.bg-red-strong {
-	background-color: #b11212;
+.bg-blue-strong {
+	background-color: #233f70;
 }
 
 .bg-white {
@@ -164,28 +164,28 @@ header {
 
 }
 
-.red-bg-header {
-	background-color: #cd1515;
+.blue-bg-header {
+	background-color: #233f70;
 	color: white;
 	height: 30px;
 	vertical-align: middle;
 }
 
-ul.red-bg-header>:first-child {
+ul.blue-bg-header>:first-child {
 
 	padding: 5px;
 }
 
-ul.red-bg-header>:last-child {
-	background-color: #b11212;
+ul.blue-bg-header>:last-child {
+	
 	color: white;
 
 	padding: 5px;
 }
 
 
-.red-bg-header-secondary {
-	background-color: #b11212;
+.blue-bg-header-secondary {
+
 	color: white;
 }
 
@@ -372,12 +372,176 @@ ul.menu-header>:first-child {
 	padding-left: 0;
 	padding-bottom: 1rem;
 	padding-top: 0.3rem;
-	background-color: white;
 }
 
 ul.menu-header>li>:first-child {
 	padding-left: 0;
+	color: white !important;
 
+}
+
+.containerTopo {
+    display: block;
+    background: #072E11;
+    border-bottom: 3px solid #A7D046;
+}
+
+.menuTopo {
+    border-bottom: 3px solid #A7D046;
+    padding: 3px 4px 6px;
+}
+
+.navbar-nav {
+    flex-direction: inherit;
+}
+
+.menuTopoItens, .menuTopoItens li a {
+    margin-top: 4px;
+    margin-left: 15px;
+    font-size: 11px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff !important;
+}
+
+.menuTopoItens li a i.iconTransparencia {
+    background-position: 0px -28px;
+}
+
+.lSSlideWrapper {
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.lSSlideOuter .lightSlider, .lSSlideOuter .lSPager {
+    padding-left: 0;
+    list-style: none outside none;
+}
+
+.lSSlideWrapper .lSSlide {
+    -webkit-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+    -webkit-transition: all 1s;
+    -webkit-transition-property: -webkit-transform,height;
+    -moz-transition-property: -moz-transform,height;
+    transition-property: transform,height;
+    -webkit-transition-duration: inherit !important;
+    transition-duration: inherit !important;
+    -webkit-transition-timing-function: inherit !important;
+    transition-timing-function: inherit !important;
+}
+
+.lSSlideOuter {
+    overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.menuTopoItens li a i.iconTransparencia, .menuTopoItens li a i.iconFaq, .menuTopoItens li a i.iconFaleconosco, .menuTopoItens li a i.iconWebmail {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../img/spriteIcons.png) no-repeat;
+}
+
+.menuTopoItens li a i.iconFaq {
+    background-position: -18px -28px;
+}
+
+.menuTopoItens li a i.iconTransparencia, .menuTopoItens li a i.iconFaq, .menuTopoItens li a i.iconFaleconosco, .menuTopoItens li a i.iconWebmail {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../img/spriteIcons.png) no-repeat;
+}
+
+.menuTopoItens li a i.iconWebmail {
+    background-position: -56px -28px;
+}
+
+.lgpd {
+    font-size: 14px !important;
+    position: relative;
+}
+
+.lgpd img {
+    width: 16px !important;
+}
+
+img {
+    vertical-align: baseline !important;
+    border-style: none;
+}
+
+#brasao img {
+    margin-top: 60px;
+}
+
+.menuPrincipal {
+    display: block;
+}
+
+.banner .logoGovernoEstado {
+    width: 208px;
+    height: 69px;
+    display: block;
+    overflow: hidden;
+    float: right;
+}
+
+#headerSearchform {
+    position: relative;
+    text-align: right;
+}
+
+#headerSearchform input[type="text"] {
+    background: none;
+    border: none;
+    color: #fff !important;
+    font-size: 12px;
+    width: 100%;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+#headerSearchform input[type="submit"] {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    background: url(../img/search.svg) no-repeat center center;
+    border: none;
+    font-size: 0;
+    width: 24px;
+    height: 24px;
+    color: #fff;
+}
+
+.banner {
+    height: 200px;
+}
+
+.banner h1 {
+    margin-top: 85px;
+}
+
+.banner h2, .banner h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #fff !important;
+    line-height: 1.1;
 }
 
 ul.menu-header>:last-child {
@@ -390,6 +554,16 @@ ul.menu-header>:last-child {
 
 }
 
+
+
+.menuTopoItens li a i.iconTransparencia, .menuTopoItens li a i.iconFaq, .menuTopoItens li a i.iconFaleconosco, .menuTopoItens li a i.iconWebmail {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../img/spriteIcons.png) no-repeat;
+}
+
 ul.menu-header>:last-child>:first-child {
 	color: white;
 
@@ -397,7 +571,7 @@ ul.menu-header>:last-child>:first-child {
 }
 
 ul.menu-header>:first-child>:first-child {
-	color: #cd1515;
+	color: white;
 	padding-left: 1rem;
 
 }
@@ -411,7 +585,6 @@ ul.menu-header>:nth-child(2) a {
 
 ul.menu-header>:nth-child(2) {
 	height: 30px;
-	background-color: #b11212;
 	padding: 0.3rem 1rem 1rem 1rem;
 
 }
@@ -887,8 +1060,71 @@ h4 {
 .img-banner {
 
 	background-size: contain;
+	height: 342px;
+	width: 100% !important;
+	margin-top: 30px;
+}
+
+#banners {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#mainWidgets {
+    margin: 30px 0;
+}
+
+footer {
+    text-align: center;
+    background: #024135;
+    padding: 10px 0;
+    border-top: 4px solid #043129;
+}
+.footer {
+    display: block;
+    overflow: hidden;
+    padding: 75px 0 0 0;
+    margin-top: 50px;
+    border-top: 3px solid #A7D046;
+}
+
+.img-banner-tow {
+
+	background-size: contain;
 	height: 100%;
 	width: 100% !important;
+	margin-top: 30px;
+}
+
+.noticias li a strong {
+    color: #007A3A;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.noticias li a span {
+    display: inline-block;
+    margin-left: 10px;
+    color: #777;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+.btnVerMais {
+    padding: 10px 42px;
+    border: 1px solid #A7D046;
+    background: #fff;
+    font-size: 14px;
+    color: #007A3A;
+    font-weight: bold;
+    display: inline-block;
+    -webkit-border-radius: 34px;
+    -moz-border-radius: 34px;
+    border-radius: 34px;
 }
 
 h5 {
