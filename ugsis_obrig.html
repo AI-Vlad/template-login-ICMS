@@ -201,12 +201,11 @@
                             </div>
                             <div class="titulo" style="text-align: center; margin-top: 25px">
                                 <span style="font-size: 25px;">Competências da UGSIS-OBRIG</span>
-                                <button type="button" class="btn btn-primary" data-toggle="modal"
-                                    data-target="#exampleModalCenter" style="position: absolute;
-                                    right: 0;
-                                    width: 18%;">
-                                    Sistemas da UGSIS-OBRIG
-                                </button>
+                                <button style="position: absolute; right: 0;" class="btn btn-primary btn-lg btn-open-modal" data-toggle="modal"
+                                data-target="#modal-fullscreen-xl">
+                                Sistemas da UGSIS-OBRIG
+                            </button>
+
                             </div>
                             <div class="entry">
                                 <p style=" margin-top: 20px; font-size: 18px;">&nbsp;<strong
@@ -298,49 +297,30 @@
 
             </div>
         </nav>
-        <!-- <nav class="container">
-            <div class="row">
-                <div id="text-4" class="footer-widget widget_text col-12 col-lg-3">
-                    <h5 class="footer-widget-title" data-uw-styling-context="true">Contato</h5>
-                    <div class="textwidget">
-                        <p data-uw-styling-context="true">R. Delegado Osmar de Camargo, s/n<br>
-                            Parque dos Poderes<br>
-                            CEP 79037-108<br>
-                            Campo Grande - MS</p>
-                    </div>
-                </div>
-                <div id="custom_html-2" class="widget_text footer-widget widget_custom_html col-12 col-lg-3">
-                    <h5 class="footer-widget-title" data-uw-styling-context="true">Localização</h5>
-                    <div class="textwidget custom-html-widget"><iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3738.661317388203!2d-54.559712049827354!3d-20.438013986254216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9486e905b123b21d%3A0xeb78a1358012b450!2sSGI+-+Superintend%C3%AAncia+de+Gest%C3%A3o+da+Informa%C3%A7%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1549974362546"
-                            width="100%" height="200" frameborder="0" style="border:0" allowfullscreen=""></iframe>
-                    </div>
-                </div>
-            </div>
-        </nav> -->
     </section>
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
+    <div style="padding-right: 0px !important;" class="modal modal-fullscreen-xl" id="modal-fullscreen-xl" tabindex="-1"
+    role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div style="height: 650px;" class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Diagrama dos sistemas da UGSIS-OBRIG</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div style="width: 1330px; height: 482.5px;" class="modal-body">
+                <img style="width: 1340px; max-height: 100%;" src="./assets/img/diagrama-ugsis-obrig-ugdfe.png" alt="">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                <button type="button" class="btn btn-primary">Download do diagrama</button>
             </div>
         </div>
     </div>
+</div>
+
 
     <footer>
 

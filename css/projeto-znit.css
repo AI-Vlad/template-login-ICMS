@@ -1047,6 +1047,19 @@ ul.menu-header-centered>li {
 
 }
 
+.modal-dialog {
+    width: 100%;
+    max-width: none;
+    height: 100%;
+    margin: 0;
+  }
+  
+  .modal-content {
+    height: 100%;
+    border: 0;
+    border-radius: 0;
+  }
+
 .noticias>:last-child {
 	margin-right: 0;
 }
@@ -1056,6 +1069,8 @@ ul.menu-header-centered>li {
 h4 {
 	margin-bottom: 4rem;
 }
+
+
 
 .img-banner {
 
